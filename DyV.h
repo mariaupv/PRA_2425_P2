@@ -116,8 +116,8 @@ int PartitionRAND( vector<T5>& v, int ini, int fin){
 	swap (v[i], v[fin]);
 	return i;
 }
-template <typename T4>
-void QuickSortRAND( vector<T4>& v, int ini, int fin){
+template <typename T5>
+void QuickSortRAND( vector<T5>& v, int ini, int fin){
 	if (ini < fin){
 		int pivot = PartitionRAND(v, ini, fin);
 		QuickSortRAND(v, ini, pivot -1);
